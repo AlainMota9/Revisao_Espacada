@@ -123,7 +123,8 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
+.vscode-testo
+.vscode
 
 # yarn v3
 .pnp.*
@@ -165,6 +166,7 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+.env.example
 
 # vercel
 .vercel
@@ -172,3 +174,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#Docker
+.dockerignore
+
