@@ -2,11 +2,6 @@ import React from "react";
 import { GetStaticProps } from "next";
 import Layout from "../components/Layout";
 import Post, { PostProps } from "../components/Post";
-import Link from "next/link";
-
-export default function Home() {
-  return <Link href="/pages">Dashboard</Link>;
-}
 
 export const getStaticProps: GetStaticProps = async () => {
   const feed = [
